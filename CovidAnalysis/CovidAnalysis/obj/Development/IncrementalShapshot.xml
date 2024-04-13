@@ -1,0 +1,110 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>CovidAnalysis</Database>
+    <Server>LAPTOP-S57CEPDH\SDB1</Server>
+    <ConnectionString>Data Source=LAPTOP-S57CEPDH\SDB1;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>9jdMVzZF1coivTLbNpB68FTr9Mg=5/3/2021 6:52:04 PM5/3/2021 6:52:04 PM</TimeStamp>
+        <ID>
+          <String>Covid</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>6Id4dcVQM5pAHJxE5KXSsCmPlks=5/3/2021 6:52:57 PM5/3/2021 6:52:57 PM</TimeStamp>
+        <ID>
+          <String>Covid</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>w7mPlC/dZQO9uzynZyped9tvfY8=5/3/2021 7:18:39 PM5/3/2021 6:53:58 PM</TimeStamp>
+        <ID>
+          <String>Country</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>M8i3QFjbZBYqZh5kQASkfcvZ1qc=5/3/2021 7:00:28 PM5/3/2021 6:53:58 PM</TimeStamp>
+        <ID>
+          <String>Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>ZfM6NFAom3SvN1cxc+OFe2IWiJw=5/13/2021 6:22:25 PM5/3/2021 6:53:58 PMcB2x2hG7V9nxqe8U+7R+bt+NmvM=5/3/2021 6:53:58 PM5/3/2021 6:53:58 PM</TimeStamp>
+        <ID>
+          <String>Covid</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>9oyIN8xsBcet/LyWDBelWqu/kzY=5/5/2021 5:24:37 PM5/5/2021 5:24:37 PM</TimeStamp>
+        <ID>
+          <String>Role</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.MiningStructure</Type>
+        <TimeStamp>Xyi6szmA76xCPGvgCH/Gc314+KU=5/5/2021 2:23:58 PM5/5/2021 2:23:58 PM</TimeStamp>
+        <ID>
+          <String>Covid Details</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.MiningStructure</Type>
+        <TimeStamp>sl1LRtYvTs/ULtr5+SN5MY6LCmQ=5/5/2021 3:41:13 PM5/5/2021 3:41:13 PM</TimeStamp>
+        <ID>
+          <String>DateAR</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.MiningStructure</Type>
+        <TimeStamp>OZRBc3dXzTXTI6tPFlxYFaAsW2Y=5/5/2021 5:34:39 PM5/5/2021 5:34:39 PM</TimeStamp>
+        <ID>
+          <String>assosiationRules</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.MiningStructure</Type>
+        <TimeStamp>kwXYmRxXm5GMjpnpIRtKMcXfDiY=5/5/2021 6:48:39 PM5/5/2021 6:48:39 PM</TimeStamp>
+        <ID>
+          <String>asrules</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.MiningStructure</Type>
+        <TimeStamp>eI60eJlaXiH5ZmkbgXnopz/RHHw=5/10/2021 11:43:27 PM5/10/2021 11:43:27 PM</TimeStamp>
+        <ID>
+          <String>casesAsRules</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>jZC0XnWrovmajd7ZWM4xWCfWjHQ=5/5/2021 5:27:21 PM5/3/2021 6:51:21 PM</TimeStamp>
+      <ID>
+        <String>CovidAnalysis</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2021-05-16T10:59:11.78Z</LastDeployed>
+</DeploymentSnapshot>

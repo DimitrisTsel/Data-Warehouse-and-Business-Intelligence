@@ -1,0 +1,149 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="75ca2581-4058-4fa7-bc13-7b4724e4ffe7" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Covid</ID>
+  <Name>Covid</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Covid</DataSourceID>
+  <Schema>
+    <xs:schema id="Covid" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Covid" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="341be669-cb4e-4f2f-ba09-09b3f915df6c">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_country" msprop:design-time-name="6ed87d62-9bf0-48da-99f6-6e82b55b7b2f" msprop:DbTableName="country" msprop:FriendlyName="country" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="countriesAndTerritories" msprop:design-time-name="c1c15a14-1945-43c7-8319-87d159085579" msprop:DbColumnName="countriesAndTerritories" msprop:FriendlyName="countriesAndTerritories">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="250" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="geoId" msprop:design-time-name="5206e2a7-3acb-4e4d-b6f1-26d64dbdf563" msprop:DbColumnName="geoId" msprop:FriendlyName="geoId">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="countryterritoryCode" msprop:design-time-name="e7c720ad-fdab-4dfe-85cb-d1706bf2e93e" msprop:DbColumnName="countryterritoryCode" msprop:FriendlyName="countryterritoryCode" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="popData2019" msprop:design-time-name="3dafba46-bc70-42c2-ae39-e5ec2bbee5c9" msprop:DbColumnName="popData2019" msprop:FriendlyName="popData2019" type="xs:int" minOccurs="0" />
+                  <xs:element name="continentExp" msprop:design-time-name="c01364f6-532d-44e1-bfba-c8db31f04f31" msprop:DbColumnName="continentExp" msprop:FriendlyName="continentExp">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_covidDetails" msprop:design-time-name="de2180b0-0594-435a-837e-1de53e40e418" msprop:DbTableName="covidDetails" msprop:FriendlyName="covidDetails" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="dateRep" msprop:design-time-name="283e0229-8890-4cca-a450-f83c4e351b2b" msprop:DbColumnName="dateRep" msprop:FriendlyName="dateRep">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="cases" msprop:design-time-name="1f695a33-c78c-43d7-804d-811907cda70e" msprop:DbColumnName="cases" msprop:FriendlyName="cases" type="xs:int" />
+                  <xs:element name="deaths" msprop:design-time-name="dd50b512-5056-47c5-88c6-e88867d0e93d" msprop:DbColumnName="deaths" msprop:FriendlyName="deaths" type="xs:int" />
+                  <xs:element name="geoId" msprop:design-time-name="22598af4-c6a7-43d8-ade7-691415e0beca" msprop:DbColumnName="geoId" msprop:FriendlyName="geoId">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Cumulative_number_for_14_days_of_COVID_19_cases_per_100000" msprop:design-time-name="aa839cc0-4b36-4420-84da-b4dc5d25ccc5" msprop:DbColumnName="Cumulative_number_for_14_days_of_COVID_19_cases_per_100000" msprop:FriendlyName="Cumulative_number_for_14_days_of_COVID_19_cases_per_100000" type="xs:double" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_date" msprop:design-time-name="ecace8ae-ab7a-465f-b100-b071bdec8746" msprop:DbTableName="date" msprop:FriendlyName="date" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="dateRep" msprop:design-time-name="f8673abe-dfcf-41ed-8189-608ecd06fa5c" msprop:DbColumnName="dateRep" msprop:FriendlyName="dateRep">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="day" msprop:design-time-name="2af2f55d-3af7-464b-a2e2-8184281ef03c" msprop:DbColumnName="day" msprop:FriendlyName="day" type="xs:int" />
+                  <xs:element name="month" msprop:design-time-name="1acdb675-d62d-4f3f-9b09-35874263df36" msprop:DbColumnName="month" msprop:FriendlyName="month" type="xs:int" />
+                  <xs:element name="year" msprop:design-time-name="776c8136-eb9f-4a62-ac4c-57bd9d6216a9" msprop:DbColumnName="year" msprop:FriendlyName="year" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_country" />
+          <xs:field xpath="geoId" />
+        </xs:unique>
+        <xs:unique name="dbo_covidDetails_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_covidDetails" />
+          <xs:field xpath="dateRep" />
+          <xs:field xpath="geoId" />
+        </xs:unique>
+        <xs:unique name="dbo_date_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_date" />
+          <xs:field xpath="dateRep" />
+        </xs:unique>
+        <xs:keyref name="FK_date" refer="dbo_date_Constraint1">
+          <xs:selector xpath=".//dbo_covidDetails" />
+          <xs:field xpath="dateRep" />
+        </xs:keyref>
+        <xs:keyref name="FK_geoId" refer="Constraint1">
+          <xs:selector xpath=".//dbo_covidDetails" />
+          <xs:field xpath="geoId" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Covid xmlns="" />
+  </Schema>
+</DataSourceView>

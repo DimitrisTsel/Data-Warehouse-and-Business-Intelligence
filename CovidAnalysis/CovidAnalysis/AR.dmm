@@ -1,0 +1,284 @@
+﻿<MiningStructure xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="dce71b87-1c58-446f-a629-01b5193026e5" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DateAR</ID>
+  <Name>AR</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CaseTableName</Name>
+      <Value>dbo_date</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="8" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5356" scrolltop="-4134" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="22479" y="16087" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01a100009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="date" left="3674" top="5067" logicalid="4" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000003090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_date" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="covidDetails" left="20" top="0" logicalid="5" controlid="2" masterid="0" hint1="0" hint2="0" width="10308" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000442800006b0a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_covidDetails" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="4775" top="2367" logicalid="6" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_date]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="4" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5174" y="5067" />
+              <point x="5174" y="2667" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-5356</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4134</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="3eb8c58b-ddfa-417d-b75e-b65be8d7e323">
+    <DataSourceViewID>Covid</DataSourceViewID>
+  </Source>
+  <Columns>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="34380105-c460-44e9-8519-3284dd4c2423">
+      <ID>Date Rep</ID>
+      <Name>Date Rep</Name>
+      <IsKey>true</IsKey>
+      <Type>Text</Type>
+      <Content>Key</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="41832ed0-78ee-4f6a-85b0-1669b20d2da2">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5c18a1b3-4187-4680-8e00-99cc6ee1a3ea">
+            <TableID>dbo_date</TableID>
+            <ColumnID>dateRep</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="d6df643a-66ed-4ba0-923b-d30cc37e33e4">
+      <ID>Day</ID>
+      <Name>Day</Name>
+      <Type>Long</Type>
+      <Content>Discretized</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="add78cad-50d9-4f2a-96a7-afc0f025ba65">
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a45bb199-e38e-47e9-abf1-a6cddc1c41fa">
+            <TableID>dbo_date</TableID>
+            <ColumnID>day</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="b8fc0e4d-11cf-4174-bf2d-73b66dbf344e">
+      <ID>Month</ID>
+      <Name>Month</Name>
+      <Type>Long</Type>
+      <Content>Discretized</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0d93eb4d-6178-4b46-84c2-01ce3edd343f">
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="67654fd4-4f8e-4c2a-8628-bd70b8ec7668">
+            <TableID>dbo_date</TableID>
+            <ColumnID>month</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="TableMiningStructureColumn" dwd:design-time-name="4c1dfeb0-f3a5-4dc7-bdac-cb791482faaa">
+      <Annotations>
+        <Annotation>
+          <Name>MDXFilterComponent</Name>
+        </Annotation>
+      </Annotations>
+      <ID>Covid Details</ID>
+      <Name>Covid Details</Name>
+      <ForeignKeyColumns>
+        <ForeignKeyColumn dwd:design-time-name="02297c69-1020-4d81-ae32-3f9a43482ee7">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <NullProcessing>Error</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="279fbe72-c356-49cb-8b4b-72fdd624509a">
+            <TableID>dbo_covidDetails</TableID>
+            <ColumnID>dateRep</ColumnID>
+          </Source>
+        </ForeignKeyColumn>
+      </ForeignKeyColumns>
+      <Columns>
+        <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="3a7187c8-cf97-4e6a-8754-5d3118ba8062">
+          <ID>Cases</ID>
+          <Name>Cases</Name>
+          <Type>Long</Type>
+          <Content>Discretized</Content>
+          <KeyColumns>
+            <KeyColumn dwd:design-time-name="63b35086-5d76-4adc-b60e-9f02c10b0af4">
+              <DataType>Integer</DataType>
+              <DataSize>-1</DataSize>
+              <Source xsi:type="ColumnBinding" dwd:design-time-name="778629a2-ed53-42f3-bba5-46fbbe20021f">
+                <TableID>dbo_covidDetails</TableID>
+                <ColumnID>cases</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+        </Column>
+        <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="17d3600f-3ba3-43a5-bdf5-6ce57f52b0fb">
+          <ID>Deaths</ID>
+          <Name>Deaths</Name>
+          <Type>Long</Type>
+          <Content>Discretized</Content>
+          <KeyColumns>
+            <KeyColumn dwd:design-time-name="e8478f49-f3a1-4c58-9548-f71204b2f959">
+              <DataType>Integer</DataType>
+              <DataSize>-1</DataSize>
+              <Source xsi:type="ColumnBinding" dwd:design-time-name="a30b8f18-b073-4e84-a76d-5961dfde1bf3">
+                <TableID>dbo_covidDetails</TableID>
+                <ColumnID>deaths</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+        </Column>
+        <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="22f26772-8947-43b3-96d9-2878c2fe7582">
+          <ID>Geo Id</ID>
+          <Name>Geo Id</Name>
+          <IsKey>true</IsKey>
+          <Type>Text</Type>
+          <Content>Key</Content>
+          <KeyColumns>
+            <KeyColumn dwd:design-time-name="aa07d46b-4735-4166-90e9-87453dd6a16c">
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding" dwd:design-time-name="4b99fd73-c2e2-4161-b038-49edca1f6560">
+                <TableID>dbo_covidDetails</TableID>
+                <ColumnID>geoId</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+        </Column>
+      </Columns>
+    </Column>
+  </Columns>
+  <MiningModels>
+    <MiningModel dwd:design-time-name="a2a6e688-ce68-411d-afcf-aac52a135c81">
+      <ID>Date</ID>
+      <Name>Date</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Algorithm>Microsoft_Association_Rules</Algorithm>
+      <Columns>
+        <Column dwd:design-time-name="18e7e716-5c8a-4d65-bb3c-4cb166c89f8c">
+          <ID>Date Rep</ID>
+          <Name>Date Rep</Name>
+          <SourceColumnID>Date Rep</SourceColumnID>
+          <Usage>Key</Usage>
+        </Column>
+        <Column dwd:design-time-name="4a3f1300-5caf-4fc8-abbc-510f4dff5970">
+          <ID>Day</ID>
+          <Name>Day</Name>
+          <SourceColumnID>Day</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="aab7ca29-c69e-4b5e-92e3-86c303fbf7e6">
+          <ID>Month</ID>
+          <Name>Month</Name>
+          <SourceColumnID>Month</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="12ff1569-3842-4b5f-96b1-a62b8f9a066f">
+          <ID>Covid Details</ID>
+          <Name>Covid Details</Name>
+          <SourceColumnID>Covid Details</SourceColumnID>
+          <Columns>
+            <Column dwd:design-time-name="82fea0f6-d1c3-466b-a98e-f2fa7eb12c50">
+              <ID>Cases</ID>
+              <Name>Cases</Name>
+              <SourceColumnID>Cases</SourceColumnID>
+              <Usage>Predict</Usage>
+            </Column>
+            <Column dwd:design-time-name="2b84e410-58fd-449e-af7b-d44ce5c2586d">
+              <ID>Deaths</ID>
+              <Name>Deaths</Name>
+              <SourceColumnID>Deaths</SourceColumnID>
+              <Usage>Predict</Usage>
+            </Column>
+            <Column dwd:design-time-name="fdc8f4c8-3a76-470f-a0fa-24876d7597ad">
+              <ID>Geo Id</ID>
+              <Name>Geo Id</Name>
+              <SourceColumnID>Geo Id</SourceColumnID>
+              <Usage>Key</Usage>
+            </Column>
+          </Columns>
+        </Column>
+      </Columns>
+    </MiningModel>
+  </MiningModels>
+  <ddl100_100:HoldoutMaxPercent>20</ddl100_100:HoldoutMaxPercent>
+</MiningStructure>
