@@ -1,7 +1,7 @@
 # Data Warehouse and Business Inteligence
 
 ## Overview
-This project was an application implemented for the purpose of the course: **Information Systems - web applications** during my **MSc in Advanced Information Systems**.
+This project was an application implemented for the purpose of the course: **Data-Warehouses and Business Intelligence** during my **MSc in Advanced Information Systems**.
 The project aims to create a data warehouse (DW), specifically constructing cubes from large databases (DB) and performing detailed analysis of cube data (OLAP). Specifically, for the development of the Data Warehouse, a dataset containing information and data about Covid-19 from the website [source](https://www.ecdc.europa.eu/en/publications-data/data-national-14-day-notification-rate-covid-19) was used. We designed the DB for data entry into a relational Database. Then, we selected the data used for analytical processing and proceeded with the preprocessing process (cleaning, transformation) using Excel. Upon the selected data from the previous step, they were imported into the Database designed, with the data ready for entry into the Data Warehouse. Subsequently, a data warehouse - cube - was defined with appropriate dimensions, hierarchies, and measures. The DW follows the star schema model. Additionally, the queries we posed to the cube, the conclusions we reached, as well as visualized data of the responses we received from the cube for clearer conclusions, are presented. Finally, association rule extraction techniques were applied to the dataset, describing the results and the interesting measures used (support, confidence, lift, etc.) for rule selection.
 
 ### Source of Data:
